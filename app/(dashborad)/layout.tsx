@@ -13,7 +13,10 @@ export default function DashboardLayout({
           <Sidebar />
         </div>
         <main className="md:pl-72 h-full">
-          <NavBar />
+          <div className="lg:hidden md:hidden">
+             <NavBar />
+          </div>
+         
           {children}
         </main>
       </div>
