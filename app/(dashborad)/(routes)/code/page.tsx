@@ -37,7 +37,7 @@ import { cn } from "@/lib/utils";
 import UserAvatar from "@/components/user-avatar";
 
 import BotAvatar from "@/components/bot-avatar";
-import ReactMarkdown from 'react-markDown';
+// import ReactMarkdown from 'react-markDown';
 
 
 export default function CodePage() {
