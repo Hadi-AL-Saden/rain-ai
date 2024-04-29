@@ -130,7 +130,7 @@ export default function CodePage() {
 
                 {message.role === 'user' ? <UserAvatar/> : <BotAvatar/>}
                 </div>
-                <ReactMarkdown components={{
+                {/*                 <ReactMarkdown components={{
                   pre: ({ node, ...props }) => (
                     <div className="overflow-auto w-full my-2 bg-black/10 p-2 rounded-lg">
                       <pre {...props} />
@@ -141,7 +141,8 @@ export default function CodePage() {
                   )
                 }} className="text-sm overflow-hidden leading-7 sm:w-full">
                   {message.content || ""}
-                </ReactMarkdown>
+                </ReactMarkdown> */}
+
 
               </div>
             ))}
